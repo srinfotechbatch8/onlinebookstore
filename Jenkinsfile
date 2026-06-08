@@ -15,7 +15,7 @@ pipeline {
               	    }  
          	    } 
 				
-				stage("poll scm") {  
+				stage("poll scm2") {  
            	    steps {  
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
