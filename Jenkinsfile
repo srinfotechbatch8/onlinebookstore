@@ -8,7 +8,7 @@ pipeline {
               	    }  
          	    } 
 				
-				stage("Build") {  
+				stage("git_checkout") {  
            	    steps {  
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
