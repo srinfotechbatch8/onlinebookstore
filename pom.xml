@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
-		<finalName>SRINFOETCH</finalName>
+		<finalName>onlinebookstore</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
