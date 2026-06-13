@@ -21,5 +21,13 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+				
+				
+				stage("Trigger Jobs") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
         }
 }
